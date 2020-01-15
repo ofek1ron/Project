@@ -29,12 +29,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Project\Models\QueryForm.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="Project\__init__.py" />
     <Compile Include="Project\views.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Project\" />
+    <Folder Include="Project\Models\" />
     <Folder Include="Project\static\" />
     <Folder Include="Project\static\content\" />
     <Folder Include="Project\static\fonts\" />
